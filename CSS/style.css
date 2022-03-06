@@ -1,0 +1,168 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+}
+
+div.containBotones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100px;
+    gap: 20px;
+}
+
+.tamañoBotones{
+    position: relative;
+    top: 40px;
+    width: 100px;
+    height: 50px;
+}
+
+div.containPedido{
+    position: relative;
+    top: 100px;
+}
+
+form.prop-pedido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: 300px;
+}
+
+div.prop-stock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: 300px;
+}
+
+.containLogo{
+    position: relative;
+}
+
+.tamañoOrder{
+    width: 200px;
+    height: 200px;
+}
+
+.titulo{
+    text-align: center;
+    color: darkmagenta;
+}
+
+img{
+    height: 300px;
+}
+
+div.centraTabla{
+    text-align: center;
+}
+
+div.centraTabla table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+.anchoTablaPasteles{
+    width: 1200px;
+}
+
+.anchoTablaAdornos{
+    width: 00px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+/*Definimos tamaño para la tabla de los pedidos*/
+.tablaPedidos{
+    width: 450px;
+}
+
+/*Definimos color para los titulos encabezados tabla*/
+.colorEncabezado{
+    color: darkmagenta;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Definimos propiedades de la celdas*/
+td{
+    color: rgb(70, 19, 209);
+    font-size: medium;
+    font-style: italic;
+    height: 70px;
+    border: 0;
+}
+
+td.prop-pedido{
+    color: rgb(70, 19, 209);
+    font-size: medium;
+    font-style: italic;
+    height: 40px;
+}
+
+.tamañoDatosCte{
+    position: relative;
+    top: 100px;
+    width: 600px;
+    height: 200px;
+}
+
+table.tamañoDatosCte input{
+    width: 300px;
+}
+
+/*Color celdas 1 none*/
+.td-none-1{
+    background-color: #e7e6d1;
+}
+
+/*Color celdas 2 y 3 none*/
+.td-none-2{
+    background-color: #eee6d2;
+}
+
+/*Color celdas 1 par*/
+.td-par-1{
+    background-color: #f9f8f3;
+}
+
+/*Color celdas 2 y 3 par*/
+.td-par-2{
+    background-color: #FFFDF7;
+}
+
+.anchoCamposStock-1{
+    width: 300px;
+}
+
+.anchoCamposStock-2{
+    width: 100px;
+}
+
+.anchoCeldasHistorial-1{
+    width: 200px;
+    height: 50px;
+}
+.anchoCeldasHistorial-2{
+    width: 250px;
+    height: 50px;
+}
